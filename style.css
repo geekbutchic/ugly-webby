@@ -1,17 +1,24 @@
 h1 {
-    color: #111;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 275px;
-    font-weight: bold;
+    color: red;
+    font-family: 'Trattatello', fantasy;
+    font-size: 200px;
+    font-weight: bolder;
     letter-spacing: -1px;
     line-height: 1;
     text-align: center;
+    text-transform: lowercase;
+    
 }
-
+h3 {
+    color: red;
+    font-family: Luminari, fantasy;
+    font-size: 10px;
+    text-transform: capitalize;
+}
 p {
-    color: #685206;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 14px;
+    color: red;
+    font-family: Luminari, fantasy;
+    font-size: 30px;
     line-height: 24px;
     margin: 0 0 24px;
     text-align: justify;
@@ -25,13 +32,13 @@ textarea {
 }
 
 ul, ol {
-    margin: 20px;
+    margin: 30px;
     padding: 0;
 }
 
 li {
-    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
-    border-bottom: 1px solid #ccc;
+    font: 200 20px/1.5 Luminari, fantasy;
+    border-bottom: 1px solid rgb(187, 24, 92);
 }
    
 li:last-child {
@@ -42,11 +49,14 @@ form {
     height:110px;
     width:190px;
     margin:auto;
-    border:1px #CCC solid;
+    border:20px rgb(201, 23, 218) solid;
     padding:10px;
+    background-color: red;
 }
     
 input, textarea {
-    padding:5px;
-    margin:5px
+    border:10px rgb(201, 23, 218) solid;
+    background-color: red;
+    padding:10px;
+    margin:10px
 }
