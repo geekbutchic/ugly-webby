@@ -25,6 +25,10 @@ p {
     text-justify: inter-word;
 }
 
+img {
+    border-radius: 10mm;
+    border-image-repeat: repeat;
+}
 textarea {
     margin: 20px;
     width: 300px;
@@ -49,6 +53,7 @@ form {
     height:110px;
     width:190px;
     margin:auto;
+    border-radius: 2mm;
     border:20px rgb(201, 23, 218) solid;
     padding:10px;
     background-color: red;
@@ -56,6 +61,7 @@ form {
     
 input, textarea {
     border:10px rgb(201, 23, 218) solid;
+    border-radius: 2mm;
     background-color: red;
     padding:10px;
     margin:10px
